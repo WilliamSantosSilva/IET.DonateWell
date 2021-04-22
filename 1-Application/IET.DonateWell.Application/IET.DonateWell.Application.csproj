@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Domain\IET.DonateWell.Domain\IET.DonateWell.Domain.csproj" />
+    <ProjectReference Include="..\..\3-Infra\3.1-Data\IET.DonateWell.Infra.Data\IET.DonateWell.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\4-Repository\IET.DonateWell.Repository\IET.DonateWell.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IET.Comum" Version="2.3.4" />
+  </ItemGroup>
+
+</Project>
