@@ -11,12 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Interface\" />
-    <Folder Include="Service\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="IET.Comum" Version="2.3.4" />
   </ItemGroup>
 

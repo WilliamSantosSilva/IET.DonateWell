@@ -5,12 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\Repository\" />
-    <Folder Include="Interface\Service\" />
-    <Folder Include="Service\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="IET.Comum" Version="2.3.4" />
   </ItemGroup>
 
